@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    }
+header{
+    position: relative;
+}
+.logo{
+    background-image: url(images/logo.png);
+    background-size: cover;
+    width: 7rem;
+    height: 7rem;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    float: right;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+}
+nav li{
+    display: inline;
+    padding: 0px 10px 0px 0px;
+}
+nav a{
+    text-decoration: none;
+    color: #9E4949;
+    line-height: 70px;
+    padding: 15px 10px;
+}
+nav a:hover{
+    color: white;
+    background-color: black;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.su-historia{
+    color: #9E4949;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.text-historia{
+    color: #4F2B2B;
+    font-size: 1.3rem;
+    margin: 0rem 2rem 0rem 2rem;
+} 
+.image-histori{
+    background-color: red;
+    width: 90%;
+    height: 10rem;
+    margin-left: 1.2rem;
+    margin-bottom: 1.5rem;
+    background-image: url(images/avicii\ 2.jpg);
+    background-size: cover;
+    box-shadow:
+    0px 5.8px 4.3px rgba(0, 0, 0, 0.01),
+    0px 7px 6.7px rgba(0, 0, 0, 0.009),
+    0px 9.4px 10.3px rgba(0, 0, 0, 0.101),
+    0px 14px 15px rgba(0, 0, 0, 0.28)
+  ;
+}
+.canciones{
+    color: #9E4949;
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+.text1{
+    text-align: center;
+    margin: 0rem 1rem 0rem 1rem;
+    color: #4F2B2B;
+    font-size: 1.5rem;
+}
+
+.images1{
+    background-color: red;
+    width: 90%;
+    height: 25rem;
+    margin: 0rem 0rem 1rem 1.3rem;
+    background-image: url(images/firends\ of\ mine.jpg);
+    background-size: cover;
+}
+
+.text2{
+    text-align: center;
+    margin: 0rem 1rem 0rem 1rem;
+    color: #4F2B2B;
+    font-size: 1.5rem;
+}
+.images2{
+    background-color: red;
+    width: 90%;
+    height: 25rem;
+    margin: 0rem 0rem 1rem 1.3rem;
+    background-image: url(images/Avicii_Nights_Artwork.png);
+    background-size: cover;
+}
+
+.text3{
+    text-align: center;
+    margin: 0rem 1rem 0rem 1rem;
+    color: #4F2B2B;
+    font-size: 1.5rem;
+}
+.images3{
+    background-color: red;
+    width: 90%;
+    height: 25rem;
+    margin: 0rem 0rem 1rem 1.5rem;
+    background-image: url(images/sunset\ jesus.jpg);
+    background-size: cover;
+}
+
+.fundation{
+    margin: 0rem 0rem 0rem 1rem;
+    font-size: 2rem;
+    color: #9E4949;
+}
+.text-fundation{
+    font-size: 2.5rem;
+
+}
+.description-fundation{
+    color: #4F2B2B;
+}
+.images-fundation{
+    background-color: red;
+    width: 90%;
+    height: 15rem;
+    margin: 0px 1rem 1.5rem 1.3rem;
+    background-image: url(images/fundation.jpg);
+    background-size: cover;
+    box-shadow:
+    0px 5.8px 4.3px rgba(0, 0, 0, 0.01),
+    0px 7px 6.7px rgba(0, 0, 0, 0.009),
+    0px 9.4px 10.3px rgba(0, 0, 0, 0.101),
+    0px 14px 15px rgba(0, 0, 0, 0.28);
+}
+
+footer{
+    text-align: center;
+    background-color: #4F2B2B;
+    padding-top: 0.5rem;
+}
+
+#logo a{ 
+    color: #fff;
+    margin: 1rem;
+}
+#logo a:hover{
+    color: black;
+    font-size: 2.5rem;
+}
+
+@media (min-width: 768px){
+    .image-histori{
+        background-color: red;
+        width: 90%;
+        height: 25rem;
+        margin-left: 2.4rem;
+        margin-bottom: 1.5rem;
+        background-image: url(images/avicii\ 2.jpg);
+        background-size: cover;
+        box-shadow:
+        0px 5.8px 4.3px rgba(0, 0, 0, 0.01),
+        0px 7px 6.7px rgba(0, 0, 0, 0.009),
+        0px 9.4px 10.3px rgba(0, 0, 0, 0.101),
+        0px 14px 15px rgba(0, 0, 0, 0.28)
+      ;
+    }
+    .su-historia{
+        color: #9E4949;
+        font-size: 2.5rem;
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .text-historia{
+        color: #4F2B2B;
+        font-size: 2rem;
+        margin-left: 1rem;
+    } 
+    .canciones{
+        color: #9E4949;
+        font-size: 2.5rem;
+        margin-top: 4rem;
+        margin-left: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .text1{
+        text-align: center;
+        margin: 0rem 1.5rem 0rem 1.5rem;
+        color: #4F2B2B;
+        font-size: 1.5rem;
+    }
+    .images1{
+        background-color: red;
+        width: 90%;
+        height: 40rem;
+        margin: 0rem 0rem 1rem 2.2rem;
+        background-image: url(images/firends\ of\ mine.jpg);
+        background-size: cover;
+    }
+    .text2{
+        text-align: center;
+        margin: 7rem 1.5rem 0rem 1.5rem;
+        color: #4F2B2B;
+        font-size: 1.5rem;
+    }
+    .images2{
+        background-color: red;
+        width: 90%;
+        height: 40rem;
+        margin: 0rem 0rem 1rem 1.3rem;
+        background-image: url(images/Avicii_Nights_Artwork.png);
+        background-size: cover;
+    }
+    
+    .text3{
+        text-align: center;
+        margin: 7rem 1.5rem 0rem 1.5rem;
+        color: #4F2B2B;
+        font-size: 1.5rem;
+    }
+    .images3{
+        background-color: red;
+        width: 90%;
+        height: 45rem;
+        margin: 0rem 0rem 1rem 1.5rem;
+        background-image: url(images/sunset\ jesus.jpg);
+        background-size: cover;
+    }
+    
+    .fundation{
+        margin: 5rem 1.5rem 0rem 1.5rem;
+        font-size: 2rem;
+        color: #9E4949;
+    }
+    .text-fundation{
+        font-size: 2.5rem;
+    
+    }
+    .description-fundation{
+        color: #4F2B2B;
+    }
+    .images-fundation{
+        background-color: red;
+        width: 90%;
+        height: 30rem;
+        margin: 1rem 1rem 1.5rem 2.5rem;
+        background-image: url(images/fundation.jpg);
+        background-size: cover;
+        box-shadow:
+        0px 5.8px 4.3px rgba(0, 0, 0, 0.01),
+        0px 7px 6.7px rgba(0, 0, 0, 0.009),
+        0px 9.4px 10.3px rgba(0, 0, 0, 0.101),
+        0px 14px 15px rgba(0, 0, 0, 0.28)
+      ;
+    }
+    footer{
+        margin-top: 7rem;
+        text-align: center;
+        background-color: #4F2B2B;
+        padding-top: 0.5rem;
+    }
+    #logo a{ 
+        color: #fff;
+        margin: 1rem;
+        font-size: 2rem;
+    }
+    #logo a:hover{
+        color: black;
+    }
+}
+
+ @media(min-width: 1920px){
+    .logo{
+        background-color: red;
+        width: 15rem;
+        height: 15rem;
+    }
+    
+    nav ul{
+        list-style-type: none;
+        float: right;
+        position: relative;
+        font-size: 1.8rem;
+        
+    }
+    nav li{
+        display: inline;
+        padding: 0px 10px 0px 0px;
+    }
+    nav a{
+        text-decoration: none;
+        color: #9E4949;
+        line-height: 70px;
+        padding: 15px 10px;
+    }
+    nav a:hover{
+        color: white;
+        background-color: black;
+        height: 50px;
+        border-radius: 5px;
+        
+    }
+    
+    .su-historia{
+        color: #9E4949;
+        font-size: 3rem;
+       
+    }
+    .text-historia{
+        color: #4F2B2B;
+        font-size: 2rem;
+    } 
+    .section1{
+        margin: 0rem 18rem 0rem 18rem;
+    }
+    .image-histori{
+        background-color: red;
+        width: 70%;
+        height: 40rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        margin: 0rem 20rem 0rem 19rem;
+        background-image: url(images/avicii\ 2.jpg);
+        border-radius: 2%;
+        box-shadow:
+        0px 5.8px 4.3px rgba(0, 0, 0, 0.01),
+        0px 7px 6.7px rgba(0, 0, 0, 0.009),
+        0px 9.4px 10.3px rgba(0, 0, 0, 0.101),
+        0px 14px 15px rgba(0, 0, 0, 0.28)
+      ;
+    }
+    .canciones{
+        color: #9E4949;
+        font-size: 3rem;
+        margin-left: 3rem;
+        position: relative;
+        top: 4rem;
+        
+    }
+    .content-music{
+        display: flex;
+        flex-direction: row;
+        gap: 0rem;
+        margin: 0rem 1rem 0rem 1rem;
+    }
+   .principal1{
+        margin-top: 7rem;
+   }
+   .text1{
+        font-size: 1.2rem;
+   }
+    .images1{
+        width: 35rem;
+        height: 30rem;
+    }
+    .text2{
+        font-size: 1.2rem;
+    }
+    .images2{
+        width: 35rem;
+        height: 30rem;
+    }
+    .text3{
+        font-size: 1.2rem;
+    }
+    .images3{
+        width: 30rem;
+        height: 30rem;
+        margin-right: 2rem;
+
+    }
+    .text-fundation{
+        font-size: 3rem;
+        margin-left: 3rem;
+    }
+    .description-fundation{
+        margin: 0rem 4rem 0rem 3rem;
+    }
+    .fundation{
+        margin: 7rem 18rem 0rem 18rem;
+    }
+    .images-fundation{
+        width: 75rem;
+        height: 35rem;
+        margin-left: 20rem;
+        background-size: cover;
+    
+       
+            
+    }
+    
+    
+
+}
